@@ -79,10 +79,16 @@
         .team-member {
             width: 300px;
             text-align: center;
-            background: white;
             padding: 20px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            background: #fff;
             border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .team-member:hover {
+            transform: scale(1.1); 
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
         }
 
         .team-member img {
